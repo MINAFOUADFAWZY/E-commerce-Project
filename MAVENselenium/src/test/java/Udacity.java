@@ -49,7 +49,7 @@ public class Udacity {
         driver.findElement(By.id("gender-male"));
         driver.findElement(By.id("FirstName")).sendKeys("Mina");
         driver.findElement(By.id("LastName")).sendKeys("Fouad");
-        driver.findElement(By.id("Email")).sendKeys("minafouad129@gmail.com");
+        driver.findElement(By.id("Email")).sendKeys("minafouad140@gmail.com");
         driver.findElement(By.id("Password")).sendKeys("Mina@123@456");
         driver.findElement(By.id("ConfirmPassword")).sendKeys("Mina@123@456");
         driver.findElement(By.id("register-button")).click();
@@ -73,7 +73,7 @@ public class Udacity {
 
 
         loginEle().click();
-        emailEle().sendKeys("minafouad129@gmail.com");
+        emailEle().sendKeys("minafouad140@gmail.com");
         driver.findElement(By.name("Password")).sendKeys("Mina@123@456");
         driver.findElement(By.className("login-button")).click();
         String expectedresult = "My account";
@@ -88,7 +88,7 @@ public class Udacity {
     public void F03frogotpassword() throws InterruptedException {
         loginEle().click();
         driver.findElement(By.cssSelector("a[href=\"/passwordrecovery\"]")).click();
-        driver.findElement(By.id("Email")).sendKeys("minafouad129@gmail.com");
+        driver.findElement(By.id("Email")).sendKeys("minafouad140@gmail.com");
         driver.findElement(By.name("send-email")).click();
         Thread.sleep(3000);
         String SuccessMsg =driver.findElement(By.className("content")).getText();
@@ -104,7 +104,7 @@ public class Udacity {
     @Test
     public void F04searchforproduct() throws InterruptedException {
         loginEle().click();
-        emailEle().sendKeys("minafouad129@gmail.com");
+        emailEle().sendKeys("minafouad140@gmail.com");
         driver.findElement(By.name("Password")).sendKeys("Mina@123@456");
         driver.findElement(By.className("login-button")).click();
         driver.findElement(By.name("q")).sendKeys("Laptop");
@@ -119,7 +119,7 @@ public class Udacity {
     @Test
     public void F05changecurrencies() throws InterruptedException {
         loginEle().click();
-        emailEle().sendKeys("minafouad129@gmail.com");
+        emailEle().sendKeys("minafouad140@gmail.com");
         driver.findElement(By.name("Password")).sendKeys("Mina@123@456");
         driver.findElement(By.className("login-button")).click();
         driver.findElement(By.id("customerCurrency")).click();
@@ -134,7 +134,7 @@ public class Udacity {
     @Test
     public void F06searchcategory() throws InterruptedException {
         loginEle().click();
-        emailEle().sendKeys("minafouad129@gmail.com");
+        emailEle().sendKeys("minafouad140@gmail.com");
         driver.findElement(By.name("Password")).sendKeys("Mina@123@456");
         driver.findElement(By.className("login-button")).click();
         driver.findElement(By.linkText("Computers"));
@@ -168,7 +168,7 @@ public class Udacity {
     public void F07addingproducttoshoppingcard() throws InterruptedException {
 
         loginEle().click();
-        emailEle().sendKeys("minafouad129@gmail.com");
+        emailEle().sendKeys("minafouad140@gmail.com");
         driver.findElement(By.name("Password")).sendKeys("Mina@123@456");
         driver.findElement(By.className("login-button")).click();
         driver.findElement(By.cssSelector("img[alt=\"nopCommerce demo store\"]")).click();
@@ -200,7 +200,7 @@ public class Udacity {
     @Test
     public void F08addtowhillist() throws InterruptedException {
         loginEle().click();
-        emailEle().sendKeys("minafouad129@gmail.com");
+        emailEle().sendKeys("minafouad140@gmail.com");
         driver.findElement(By.name("Password")).sendKeys("Mina@123@456");
         driver.findElement(By.className("login-button")).click();
         driver.findElement(By.cssSelector("img[alt=\"nopCommerce demo store\"]")).click();
@@ -231,7 +231,7 @@ public class Udacity {
     @Test
     public void F09addtocomparelist() throws InterruptedException {
         loginEle().click();
-        emailEle().sendKeys("minafouad129@gmail.com");
+        emailEle().sendKeys("minafouad140@gmail.com");
         driver.findElement(By.name("Password")).sendKeys("Mina@123@456");
         driver.findElement(By.className("login-button")).click();
         driver.findElement(By.cssSelector("img[alt=\"nopCommerce demo store\"]")).click();
@@ -263,7 +263,7 @@ public class Udacity {
     @Test
     public void F10checkout() throws InterruptedException {
         loginEle().click();
-        emailEle().sendKeys("minafouad129@gmail.com");
+        emailEle().sendKeys("minafouad140@gmail.com");
         driver.findElement(By.name("Password")).sendKeys("Mina@123@456");
         driver.findElement(By.className("login-button")).click();
 
