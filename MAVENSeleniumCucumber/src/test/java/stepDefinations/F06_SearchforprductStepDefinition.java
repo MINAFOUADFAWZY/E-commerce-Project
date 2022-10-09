@@ -30,7 +30,7 @@ public class F06_SearchforprductStepDefinition extends Hoocks {
     public void user_login()
     {
         loginEle().click();
-        emailEle().sendKeys("minafouad130@gmail.com");
+        emailEle().sendKeys("minafouad141@gmail.com");
         driver.findElement(By.name("Password")).sendKeys("Mina@123@456");
         driver.findElement(By.className("login-button")).click();
     }
