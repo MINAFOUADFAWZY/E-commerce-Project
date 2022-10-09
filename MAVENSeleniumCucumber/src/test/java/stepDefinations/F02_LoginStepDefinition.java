@@ -43,7 +43,7 @@ public class F02_LoginStepDefinition extends Hoocks {
     @When("user enter valid username and password")
     public void valid_data() throws InterruptedException {
 
-        emailEle().sendKeys("minafouad130@gmail.com");
+        emailEle().sendKeys("minafouad141@gmail.com");
         driver.findElement(By.name("Password")).sendKeys("Mina@123@456");
         driver.findElement(By.className("login-button")).click();
 
