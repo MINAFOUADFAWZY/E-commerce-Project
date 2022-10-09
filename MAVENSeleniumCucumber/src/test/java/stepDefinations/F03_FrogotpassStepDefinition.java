@@ -42,7 +42,7 @@ public class F03_FrogotpassStepDefinition extends Hoocks {
     }
     @When("user enters valid mail")
     public void user_enter_mail() throws InterruptedException {
-        driver.findElement(By.id("Email")).sendKeys("minafouad130@gmail.com");
+        driver.findElement(By.id("Email")).sendKeys("minafouad141@gmail.com");
         driver.findElement(By.name("send-email")).click();
         Thread.sleep(3000);
     }
