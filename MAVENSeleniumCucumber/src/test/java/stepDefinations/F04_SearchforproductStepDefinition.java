@@ -39,7 +39,7 @@ public class F04_SearchforproductStepDefinition extends Hoocks {
     @And("user log in successfully")
     public void user_login()
     {
-        emailEle().sendKeys("minafouad130@gmail.com");
+        emailEle().sendKeys("minafouad141@gmail.com");
         driver.findElement(By.name("Password")).sendKeys("Mina@123@456");
         driver.findElement(By.className("login-button")).click();
     }
