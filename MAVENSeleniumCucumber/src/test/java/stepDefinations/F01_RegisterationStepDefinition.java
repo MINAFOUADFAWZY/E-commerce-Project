@@ -45,7 +45,7 @@ public class F01_RegisterationStepDefinition extends Hoocks {
         driver.findElement(By.id("gender-male"));
         driver.findElement(By.id("FirstName")).sendKeys("Mina");
         driver.findElement(By.id("LastName")).sendKeys("Fouad");
-        driver.findElement(By.id("Email")).sendKeys("minafouad130@gmail.com");
+        driver.findElement(By.id("Email")).sendKeys("minafouad141@gmail.com");
         driver.findElement(By.id("Password")).sendKeys("Mina@123@456");
         driver.findElement(By.id("ConfirmPassword")).sendKeys("Mina@123@456");
         driver.findElement(By.id("register-button")).click();
