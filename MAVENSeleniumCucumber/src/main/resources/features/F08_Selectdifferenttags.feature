@@ -1,5 +1,5 @@
 @regression
-Feature: user should select different successfully
+Feature: user should select different tags successfully
 
   Scenario: user can select different tags
 
