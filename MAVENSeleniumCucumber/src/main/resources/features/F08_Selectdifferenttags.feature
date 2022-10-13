@@ -1,7 +1,7 @@
 @regression
-Feature: user should checkout successfully
+Feature: user should select different successfully
 
-  Scenario: user can filter with color
+  Scenario: user can select different tags
 
     Given user can login with his user mail and password
     When user open a category page
